@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Contêiner para o fundo interativo -->
+    <div id="interactive-background"></div>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="fade-in">
+            <h1>Bem-vindo ao meu Portfólio</h1>
+            <p>Desenvolvedor Full-Stack e Geofísico</p>
+        </section>
+        <section id="about" class="fade-in">
+            <h2>Sobre</h2>
+            <p>Informações sobre mim.</p>
+        </section>
+        <section id="skills" class="fade-in">
+            <h2>Skills</h2>
+            <ul>
+                <li>Geofísica</li>
+                <li>Geoprocessamento</li>
+                <li>Ciência da Computação</li>
+            </ul>
+        </section>
+        <section id="projects" class="fade-in">
+            <h2>Projetos</h2>
+            <div class="project slide-in">
+                <h3>Projeto 1</h3>
+                <img src="images/projeto1.png" alt="Projeto 1">
+                <p>Descrição do Projeto 1.</p>
+            </div>
+            <div class="project slide-in">
+                <h3>Projeto 2</h3>
+                <img src="images/projeto2.png" alt="Projeto 2">
+                <p>Descrição do Projeto 2.</p>
+            </div>
+        </section>
+        <section id="contact" class="fade-in">
+            <h2>Contato</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Seu Nome</p>
+    </footer>
+</body>
+
+</html>
