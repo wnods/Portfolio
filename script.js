@@ -79,3 +79,12 @@ window.addEventListener("scroll", function() {
 document.querySelector(".back-to-top").addEventListener("click", function() {
     window.scrollTo(0, 0);
 });
+
+document.getElementById('saiba-mais').addEventListener("click", function() {
+    window.location.href = 'file:///C:/Users/Willr/OneDrive/Documentos/Pessoal/Curriculo_Will.pdf';
+});
+
+document.getElementById('mais-info').addEventListener("click", function() {
+    window.location.href = 'http://lattes.cnpq.br/8966675944108308';
+});
+
