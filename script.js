@@ -69,7 +69,7 @@ function navigateToSection(event, sectionId) {
 
 window.addEventListener("scroll", function() {
     var backToTop = document.querySelector(".back-to-top");
-    if (window.scrollY > 200) {
+    if (window.scrollY < 50) {
         backToTop.classList.add("show");
     } else {
         backToTop.classList.remove("show");
@@ -81,10 +81,40 @@ document.querySelector(".back-to-top").addEventListener("click", function() {
 });
 
 document.getElementById('saiba-mais').addEventListener("click", function() {
-    window.location.href = 'file:///C:/Users/Willr/OneDrive/Documentos/Pessoal/Curriculo_Will.pdf';
+    window.location.href = '';
 });
 
 document.getElementById('mais-info').addEventListener("click", function() {
     window.location.href = 'http://lattes.cnpq.br/8966675944108308';
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+    const form = document.getElementById('contactForm');
+  
+    form.addEventListener('submit', function (event) {
+      event.preventDefault(); 
+  
+      const formData = new FormData(form); 
+  
+      fetch('/email', {
+        method: 'POST',
+        body: formData,
+      })
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Ocorreu um erro ao enviar o formulário.');
+          }
+          return response.text();
+        })
+        .then(data => {
+          
+          alert('Obrigado! Sua mensagem foi enviada com sucesso.');
+          form.reset(); 
+        })
+        .catch(error => {
+          console.error('Erro:', error);
+          alert('Desculpe, ocorreu um erro ao enviar sua mensagem. Por favor, tente novamente mais tarde.');
+        });
+    });
+  });
+  
