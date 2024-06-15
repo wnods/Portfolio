@@ -48,7 +48,7 @@
                </svg></a>
                </svg></a>
               </div>
-              <button id="saiba-mais">Saiba Mais</button>
+              
           </div>
           <div class="card2">
               <div class="pyramid-loader2">
@@ -123,27 +123,35 @@
                 </div>
             </div>
             <div class="skill-box">
-                <span class="title">MatLab</span>
+                <span class="title">SQL</span>
                 <div class="skill-bar">
-                    <span class="skill-per matlab">
+                    <span class="skill-per sql">
                         <span class="tooltip">45%</span>
                         </span>
                     </div>
             <div class="skill-box">
-             <span class="title">Fortran</span>
+             <span class="title">PowerBi</span>
                 <div class="skill-bar">
-                    <span class="skill-per gfortran">
+                    <span class="skill-per PowerBi">
                         <span class="tooltip">30%</span>
                     </span>
                 </div>
             </div>
            <div class="skill-box">
-              <span class="title">Qgis</span>
+              <span class="title">Fortran</span>
               <div class="skill-bar">
-                  <span class="skill-per qgis">
+                  <span class="skill-per gfortran ">
                       <span class="tooltip">55%</span>
                       </span>
                   </div>
+           <div class="skill-box">
+              <span class="title">Qgis</span>
+                <div class="skill-bar">
+                        <span class="skill-per qgis">
+                         <span class="tooltip">60</span>
+                           </span>
+                        </div>
+
         </div>
     </section>
     <section id="projetos" class="section hidden">
@@ -214,13 +222,24 @@
     </section>
     <section id="contato" class="section hidden">
         <h2>Contatos</h2>
-      <div class="contatocard">
-          <header class="ctt-header"></header>
-          <p></p>
-        </header>
-        </div>
+        <h3>Resta alguma dúvida ou iremos trabalhar juntos?</h3>
+        <form id="contactForm" class="form-container" action="/enviar-contato" method="post">
+          <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Seu email" required>
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Sua mensagem" required></textarea>
+          </div>
+          <button type="submit" class="form-submit-btn">Enviar</button>
+        </form>
+        
     </section>
-   
     <div class="particle-container"></div>
     
     <div class="back-to-top">
