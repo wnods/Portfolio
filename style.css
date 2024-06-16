@@ -8,23 +8,6 @@ body {
   
 }
 
-/* Tamanho do Scroll-bar lateral */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-/* Track do Scrollbar */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px #212121;
-  border-radius: 10px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #d5ad72;
-  border-radius: 10px;
-}
-
 
 
 header {
