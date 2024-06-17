@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const cvButton = document.getElementById('cv');
   if (cvButton) {
       cvButton.addEventListener("click", function() {
-          window.location.href = 'https://github.com/wnods/Portfolio/blob/01188ef1de3d0591f53c4b3146797792dbaa082c/Curriculo_Will.pdf';
+          window.location.href = 'doc/Curriculo_Will.pdf';
       });
   }
 
