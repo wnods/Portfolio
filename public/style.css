@@ -308,7 +308,7 @@ nav ul li {
   .pyramid-loader3 {
     width: 100px;
     height: 100px;
-    margin-left: 80px;
+    margin-left: 85px;
   }
 
   .pyramid-loader .wrapper .side,
@@ -1360,13 +1360,13 @@ body {
   }
 
   .popup-content {
-    width: 90%;
+    width: 70%;
     height: auto;
     padding: 20px;
   }
 
   .container {
-    max-width: 90%;
+    max-width: 70%;
   }
 
   .container .skill-box .title {
