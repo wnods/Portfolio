@@ -308,7 +308,7 @@ nav ul li {
   .pyramid-loader3 {
     width: 100px;
     height: 100px;
-    margin-left: 125px;
+    margin-left: 80px;
   }
 
   .pyramid-loader .wrapper .side,
@@ -526,6 +526,8 @@ nav ul li {
     font-size: 0.9em;
   }
 }
+
+/* ================= SECÇÃO 3 ========================== */
 
 /* Cards dentro da Secção Projetos */
 
@@ -887,17 +889,41 @@ nav ul li {
   border-color: white;
 }
 
+
 /* Media Queries para Mobile (Projetos) */
+
 @media (max-width: 768px) {
+  .projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .card4, .card5, .card6 {
+    width: 50%;
+    height: auto;
+    margin: 10px 0;
+    transform: none;
+    margin-left: 0;
+  }
 
+  .card4 .info, .card5 .info, .card6 .info, .card6 .info2 {
+    font-size: 0.9em;
+    margin: 0.5em;
+  }
 
+  .card4 .img, .card5 .img, .card6 .img {
+    width: 2em;
+    height: 2em;
+  }
 
-
-
+  .card4 button, .card5 button, .card6 button {
+    padding: 0.6em 1.2em;
+    font-size: 0.9em;
+  }
 }
 
-
+/* ============= SECÇÃO 2 ================= */
 
 /* Cards da Secção Habilidades */
 
@@ -1384,4 +1410,3 @@ body {
   background-color: black; 
   color: #fff; 
 }
-
