@@ -506,8 +506,8 @@ nav ul li {
   
   .card, .card2, .card3 {
     width: 100%;
-    height: 300px;
-    margin: 40px 0;
+    height: 360px;
+    margin: 20px 0;
     transform: none;
   }
 
@@ -532,6 +532,7 @@ nav ul li {
 /* Cards dentro da Secção Projetos */
 
 /* Projeto 1 */
+
 .card4 {
   display: flex;
   position: relative;
@@ -649,6 +650,7 @@ nav ul li {
 }
 
 /* Projeto 2 */
+
 .card5 {
   display: flex;
   position: relative;
@@ -927,7 +929,7 @@ nav ul li {
 
 /* Cards da Secção Habilidades */
 
-/* Programação */
+/* Linguagens */
 
 .card7 {
   display: flex;
@@ -1324,6 +1326,61 @@ body {
   font-size: 24px;
   cursor: pointer;
   color: white;
+}
+
+/* Media Queries para Mobile (Habilidades) */
+
+@media (max-width: 768px) {
+  .habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card7, .card8, .card9 {
+    width: 40%;
+    height: auto;
+    margin: 10px 0;
+    transform: none;
+    margin-left: 0;
+  }
+
+  .card7 .info, .card8 .info, .card9 .info, .card9 .info2 {
+    font-size: 0.9em;
+    margin: 0.5em;
+  }
+
+  .card7 .img, .card8 .img, .card9 .img {
+    width: 3em;
+    height: 3em;
+  }
+
+  .card7 button, .card8 button, .card9 button {
+    padding: 0.6em 1.2em;
+    font-size: 0.9em;
+  }
+
+  .popup-content {
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 90%;
+  }
+
+  .container .skill-box .title {
+    font-size: 12px;
+  }
+
+  .container .skill-box .skill-bar .skill-per {
+    height: 8px;
+  }
+
+  .container .skill-box .skill-per .tooltip {
+    font-size: 8px;
+  }
 }
 
 /* Secção Contato */
