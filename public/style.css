@@ -440,7 +440,7 @@ nav ul li {
   display: block;
   text-align: center;
   font-size: 0.72em;
-  margin: 1em;
+  margin: 0.2em;
 }
 
 .card .img, .card2 .img, .card3 .img {
@@ -496,7 +496,7 @@ nav ul li {
   cursor: pointer;
 }
 
-/* Media Queries para Mobile */
+/* Media Queries para Mobile (Sobre-Mim) */
 @media (max-width: 768px) {
   .section {
     display: flex;
@@ -886,6 +886,18 @@ nav ul li {
   background-clip: text;
   border-color: white;
 }
+
+/* Media Queries para Mobile (Projetos) */
+@media (max-width: 768px) {
+
+
+
+
+
+
+}
+
+
 
 /* Cards da Secção Habilidades */
 
