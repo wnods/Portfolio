@@ -990,8 +990,7 @@ nav ul li {
 
 
 .card7-header .title {
-
-  font-size: 25px;
+  font-size: 15px;
   margin: .25rem 0 auto;
   cursor: pointer;
   font-family: 'Arial Black', sans-serif;
@@ -1001,7 +1000,7 @@ nav ul li {
 .card7-header .title:hover {
   background: linear-gradient(90deg,#d5ad72,#B4B439);
   text-shadow: none;
-  font-size: 28px;
+  font-size: 17px;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1071,7 +1070,7 @@ nav ul li {
 }
 
 .card8-header .title {
-  font-size: 25px;
+  font-size: 15px;
   margin: .25rem 0 auto;
   cursor: pointer;
   font-family: 'Arial Black', sans-serif;
@@ -1080,7 +1079,7 @@ nav ul li {
 .card8-header .title:hover {
   background: linear-gradient(90deg,#d5ad72,#B4B439);
   text-shadow: none;
-  font-size: 28px;
+  font-size: 17px;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1131,7 +1130,7 @@ nav ul li {
 }
 
 .card9-header .title {
-  font-size: 25px;
+  font-size: 15px;
   margin: .25rem 0 auto;
   cursor: pointer;
   font-family: 'Arial Black', sans-serif;
@@ -1140,7 +1139,7 @@ nav ul li {
 .card9-header .title:hover {
   background: linear-gradient(90deg,#d5ad72,#B4B439);
   text-shadow: none;
-  font-size: 28px;
+  font-size: 17px;
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1346,7 +1345,7 @@ body {
   }
 
   .card7 .info, .card8 .info, .card9 .info, .card9 .info2 {
-    font-size: 0.9em;
+    font-size: 0.5em;
     margin: 0.5em;
   }
 
@@ -1357,7 +1356,7 @@ body {
 
   .card7 button, .card8 button, .card9 button {
     padding: 0.6em 1.2em;
-    font-size: 0.9em;
+    font-size: 0.2em;
   }
 
   .popup-content {
