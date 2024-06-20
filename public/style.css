@@ -281,7 +281,11 @@ nav ul li {
     text-align: center;
   }
 
-  .button::before, .button::after {
+  .button::before {
+    width: 5em;
+  }
+
+  .button::after {
     width: 5em;
   }
 
