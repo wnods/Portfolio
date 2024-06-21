@@ -148,15 +148,21 @@ function closePopup(id) {
     document.getElementById(id).classList.remove('show');
 }
 
-window.onclick = function(event) {
+// Fechar Pop-Up ao clicar fora do conteúdo ou no 'x'
+function handleClickOutside(event) {
     const popups = document.getElementsByClassName('popup');
     for (let i = 0; i < popups.length; i++) {
-        if (event.target == popups[i]) {
+        if (event.target == popups[i] || event.target.classList.contains('close')) {
             popups[i].classList.remove('show');
         }
     }
-};
+}
 
+// Eventos de clique e toque para suportar dispositivos móveis e desktop
+window.addEventListener('click', handleClickOutside);
+window.addEventListener('touchend', handleClickOutside);
+
+// Adicionar event listeners aos títulos dos cards
 document.getElementById('projetos-title').addEventListener('click', function() {
     openPopup('projetos-popup');
 });
