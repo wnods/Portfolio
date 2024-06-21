@@ -524,7 +524,7 @@ nav ul li {
   }
 
   .card3:hover{
-    transform: translateY(0);
+   transform: translateY(0);
   }
 
 
@@ -1218,6 +1218,7 @@ body {
   flex-direction: column;
   padding: 20px;
   color: white;
+  margin-left: 20em;
 }
 
 /* Skill bar */
@@ -1354,7 +1355,6 @@ body {
   font-size: 24px;
   cursor: pointer;
   color: white;
-  display: flex;
 }
 
 /* Media Queries para Mobile (Habilidades) */
@@ -1407,6 +1407,7 @@ body {
     width: 70%;
     height: auto;
     padding: 20px;
+    margin-left: -1em;
   }
 
   .container {
