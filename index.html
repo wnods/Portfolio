@@ -184,72 +184,109 @@
           <p>Machine Learning, Data Analysis, etc.</p>
         </div>
       </div>
-    <section id="projetos" class="section hidden">
-        <h2>Projetos</h2>
+      
+      <section id="projetos" class="section hidden">
         <div class="card4">
             <header class="card4-header">
-              <p></p>
-              <span class="title">Análise de Dados </br> Meteorológico </br> em TTB.</span>
+                <span id="projetos-title" class="title">Análise de Dados </br> Meteorológico </br> em TTB.</span>
             </header>
             <div class="card4-author">
-              <a class="author-avatar" href="#">
-                <span>
-              </span></a>
-              <svg class="half-circle" viewBox="0 0 106 57">
-                <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
-              </svg>
-              <div class="author-name">
-                <div class="author-name-prefix">Autores</div> Wilson Oliveira</br> Jandyr Travassos</div>
-              </div>
-              <div class="tags">
+                <a class="author-avatar" href="#">
+                    <span></span>
+                </a>
+                <svg class="half-circle" viewBox="0 0 106 57">
+                    <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+                </svg>
+                <div class="author-name">
+                    <div class="author-name-prefix">Autores</div> Wilson Oliveira</br> Jandyr Travassos
+                </div>
+            </div>
+            <div class="tags">
                 <a href="#">Python</a>
                 <a href="#">Excel</a>
                 <a href="#">Pandas</a>
-              </div>
             </div>
+        </div>
         <div class="card5">
             <header class="card5-header">
-                  <p></p>
-                  <span class="title">Aplic. do Método de Decomposição Espectral de Lanczos</span>
-                </header>
-                <div class="card4-author">
-                  <a class="author-avatar" href="#">
-                    <span>
-                  </span></a>
-                  <svg class="half-circle" viewBox="0 0 106 57">
+                <span id="card5-title" class="title">Aplic. do Método de Decomposição Espectral de Lanczos</span>
+            </header>
+            <div class="card4-author">
+                <a class="author-avatar" href="#">
+                    <span></span>
+                </a>
+                <svg class="half-circle" viewBox="0 0 106 57">
                     <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
-                  </svg>
-                  <div class="author-name">
-                    <div class="author-name-prefix">Autores</div> Wilson Oliveira </br> Ellen Gomes </br> Anderson P.</div>
-                  </div>
-                  <div class="tags">
-                    <a href="#">FEM</a>
-                    <a href="#">Lanczos</a>
-                    <a href="#"></a>
-                  </div>
+                </svg>
+                <div class="author-name">
+                    <div class="author-name-prefix">Autores</div> Wilson Oliveira</br> Ellen Gomes</br> Anderson P.
                 </div>
+            </div>
+            <div class="tags">
+                <a href="#">FEM</a>
+                <a href="#">Lanczos</a>
+                <a href="#"></a>
+            </div>
+        </div>
         <div class="card6">
-             <header class="card6-header">
-                      <p></p>
-                      <span class="title">Projeto 3</span>
-                    </header>
-                    <div class="card4-author">
-                      <a class="author-avatar" href="#">
-                        <span>
-                      </span></a>
-                      <svg class="half-circle" viewBox="0 0 106 57">
-                        <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
-                      </svg>
-                      <div class="author-name">
-                        <div class="author-name-prefix">Autores</div>Wilson Oliveira </div>
-                      </div>
-                      <div class="tags">
-                        <a href="#">x</a>
-                        <a href="#">x</a>
-                        <a href="#">x</a>
-                      </div>
-                    </div>    
+            <header class="card6-header">
+                <span id="card6-title" class="title">Projeto 3</span>
+            </header>
+            <div class="card4-author">
+                <a class="author-avatar" href="#">
+                    <span></span>
+                </a>
+                <svg class="half-circle" viewBox="0 0 106 57">
+                    <path d="M102 4c0 27.1-21.9 49-49 49S4 31.1 4 4"></path>
+                </svg>
+                <div class="author-name">
+                    <div class="author-name-prefix">Autores</div>Wilson Oliveira
+                </div>
+            </div>
+            <div class="tags">
+                <a href="#">x</a>
+                <a href="#">x</a>
+                <a href="#">x</a>
+            </div>
+        </div>
     </section>
+
+    <div id="projetos-popup" class="popup">
+        <div class="popup-content card">
+            <span class="close" onclick="closePopup('projetos-popup')">x</span>
+            <h3>Análise de Dados Meteorológicos em Tatuoca</h3>
+            <div class="card4">
+            <h5>O projeto foi feito a partir de um Backup de dados Meteorológico na Ilha de Tatuoca para cooperar no
+              processamento sismico de marés. Os dados sismicos são colhidos por um equipamento chamado Geode e
+              devido a sua sensibilidade, o Geode detecta bastante pertubações e colhe muitos ruídos, para a diminuição
+              desses Ruídos fazemos a diminuição deles com a filtragem de Ventos, Direção do Vento, Chuvas e Radiação
+              Solar. Foi utilizado a linguagem Python para ler e filtrar os dados, o Excel para uma visualização universal
+              dos Dados.</h5>  
+              
+            </div>
+        </div>
+    </div>
+
+    <div id="card5-popup" class="popup">
+        <div class="popup-content card">
+            <span class="close" onclick="closePopup('card5-popup')">x</span>
+            <h3>Apl. do Metódo de Decomposição </br> Espectral de Lanczos</h3>
+            <div class="card5">
+
+            </div>
+        </div>
+    </div>
+
+    <div id="card6-popup" class="popup">
+        <div class="popup-content card">
+            <span class="close" onclick="closePopup('card6-popup')">x</span>
+            <h3></h3>
+            <div class="card6">
+               
+            </div>
+        </div>
+    </div>
+
     <section id="contato" class="section hidden">
         <h2>Contatos</h2>
         <h3>Resta alguma dúvida ou iremos trabalhar juntos?</h3>
