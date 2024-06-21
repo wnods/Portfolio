@@ -666,9 +666,18 @@ nav ul li {
   border-color: white;
 }
 
+
 /* Dentro do Pop-up do Projeto 1 */
 
-
+@media (max-width: 600px) {
+  .popup-content {
+      width: 90%; /* Aumentar a largura do Pop-Up em dispositivos móveis */
+  }
+  .close {
+      font-size: 24px; /* Ajustar o tamanho da fonte do botão de fechamento */
+      padding: 10px; /* Adicionar preenchimento para facilitar o clique */
+  }
+}
 
 
 /* Projeto 2 */
