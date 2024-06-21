@@ -516,7 +516,7 @@ nav ul li {
   }
 
   .card:hover{
-   transform: translateY(0);
+  transform: translateY(0);
   }
 
   .card2:hover{
