@@ -289,7 +289,7 @@ nav ul li {
     width: 5em;
   }
 
-  .section {
+  .section { 
     width: 95%;
     padding: 20px;
   }
@@ -514,6 +514,19 @@ nav ul li {
     margin: 20px 0;
     transform: none;
   }
+
+  .card:hover{
+   transform: translateY(0);
+  }
+
+  .card2:hover{
+    transform: translateY(0);
+  }
+
+  .card3:hover{
+    transform: translateY(0);
+  }
+
 
   .card .info, .card2 .info, .card3 .info, .card3 .info2 {
     font-size: 0.9em;
@@ -911,6 +924,18 @@ nav ul li {
     margin: 10px 0;
     transform: none;
     margin-left: 0;
+  }
+
+  .card4:hover{
+   transform: translateY(0);
+  }
+
+  .card5:hover{
+    transform: translateY(0);
+  }
+
+  .card6:hover{
+    transform: translateY(0);
   }
 
   .card4 .info, .card5 .info, .card6 .info, .card6 .info2 {
@@ -1346,6 +1371,20 @@ body {
     margin: 10px 0;
     transform: none;
     margin-left: 0;
+  }
+
+  .card7:hover{
+    transform: translateY(0);
+
+  }
+
+  .card8:hover{
+    transform: translateY(0);
+
+  }
+
+  .card9:hover{
+    transform: translateY(0);
   }
 
   .card7 .info, .card8 .info, .card9 .info, .card9 .info2 {
