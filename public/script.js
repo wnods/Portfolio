@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const cvButton = document.getElementById('cv');
   if (cvButton) {
       cvButton.addEventListener("click", function() {
-          window.location.href = 'doc/Curriculo_Will.pdf';
+          window.location.href = 'https://wnods.github.io/Portfolio/doc/Curriculo_Will.pdf';
       });
   }
 
@@ -141,19 +141,30 @@ document.querySelector(".back-to-top").addEventListener("click", function() {
 });
 
 function openPopup(id) {
-  document.getElementById(id).classList.add('show');
+    document.getElementById(id).classList.add('show');
 }
 
 function closePopup(id) {
-  document.getElementById(id).classList.remove('show');
+    document.getElementById(id).classList.remove('show');
 }
 
 window.onclick = function(event) {
-  const popups = document.getElementsByClassName('popup');
-  for (let i = 0; i < popups.length; i++) {
-      if (event.target == popups[i]) {
-          popups[i].classList.remove('show');
-      }
-  }
+    const popups = document.getElementsByClassName('popup');
+    for (let i = 0; i < popups.length; i++) {
+        if (event.target == popups[i]) {
+            popups[i].classList.remove('show');
+        }
+    }
 };
 
+document.getElementById('projetos-title').addEventListener('click', function() {
+    openPopup('projetos-popup');
+});
+
+document.getElementById('card5-title').addEventListener('click', function() {
+    openPopup('card5-popup');
+});
+
+document.getElementById('card6-title').addEventListener('click', function() {
+    openPopup('card6-popup');
+});
