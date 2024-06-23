@@ -485,7 +485,7 @@ nav ul li {
   transform: translateY(calc(-720.5px - 0.5rem));
 }
 
-.card button, .card2 button, .card3 button {
+.card button, .card3 button {
   padding: 0.8em 1.7em;
   display: block;
   margin: auto;
