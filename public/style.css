@@ -8,7 +8,10 @@ body {
 }
 
 header {
-  font-family: Arial, sans-serif;
+  font-family: "Playwrite FR Moderne", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
   text-align: center;
   margin-top: 50px;
   position: relative;
@@ -27,6 +30,9 @@ header h1 {
 }
 
 header p {
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
   font-size: 1em;
   color: #d5ad72;
   text-shadow: #ffffff; 
