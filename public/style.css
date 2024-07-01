@@ -8,10 +8,8 @@ body {
 }
 
 header {
+  font-family: Arial, sans-serif;
   text-align: center;
-   font-family: "Baskervville SC", serif;
-  font-weight: 400;
-  font-style: normal;
   margin-top: 50px;
   position: relative;
   margin-left: 1%;
