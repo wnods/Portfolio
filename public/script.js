@@ -99,7 +99,6 @@ document.addEventListener('DOMContentLoaded', function () {
       });
   }
 
-  // Event listener para o formulário de contato
   const form = document.getElementById('contactForm');
   if (form) {
       form.addEventListener('submit', function (event) {
@@ -148,7 +147,7 @@ function closePopup(id) {
     document.getElementById(id).classList.remove('show');
 }
 
-// Fechar Pop-Up ao clicar fora do conteúdo ou no 'x'
+
 function handleClickOutside(event) {
     const popups = document.getElementsByClassName('popup');
     for (let i = 0; i < popups.length; i++) {
@@ -158,11 +157,11 @@ function handleClickOutside(event) {
     }
 }
 
-// Eventos de clique e toque para suportar dispositivos móveis e desktop
+
 window.addEventListener('click', handleClickOutside);
 window.addEventListener('touchend', handleClickOutside);
 
-// Adicionar event listeners aos títulos dos cards
+
 document.getElementById('projetos-title').addEventListener('click', function() {
     openPopup('projetos-popup');
 });
