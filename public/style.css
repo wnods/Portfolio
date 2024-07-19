@@ -772,7 +772,7 @@ nav ul li {
 /* Projeto 3 */
 
 .card6 {
-  display: none;
+  display: flex;
   position: relative;
   transform: translateY(-762.5px);
   margin-left: 600px;
