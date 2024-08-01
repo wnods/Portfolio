@@ -84,7 +84,7 @@ document.querySelector(".back-to-top").addEventListener("click", function() {
 
 document.addEventListener('DOMContentLoaded', function () {
 
-  const cvButton = document.getElementById('cv');
+  const cvButton = document.getElementById('cv-1');
   if (cvButton) {
       cvButton.addEventListener("click", function() {
           window.location.href = 'https://wnods.github.io/Portfolio/doc/Curriculo_Will.pdf';
@@ -92,10 +92,10 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
 
-  const moreInfoButton = document.getElementById('mais-info');
+  const moreInfoButton = document.getElementById('cv-2');
   if (moreInfoButton) {
       moreInfoButton.addEventListener("click", function() {
-          window.location.href = 'http://lattes.cnpq.br/8966675944108308';
+          window.location.href = 'https://wnods.github.io/Portfolio/doc/Curriculo_Will_2.pdf';
       });
   }
 
