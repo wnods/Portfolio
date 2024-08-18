@@ -14,7 +14,8 @@ const phrases = [
     "< Processamento de Dados />",
     "< Machine Learning />",
     "< Geoprocessamento />",
-    "< Geofísica Aplicada />"
+    "< Geofísica Aplicada />",
+    "< Web Dev />"
 ];
 
 let currentPhraseIndex = 0;
