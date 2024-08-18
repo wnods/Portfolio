@@ -11,10 +11,10 @@ if (particleContainer) {
 }
 
 const phrases = [
-    "< Analista de Dados />",
-    "< Web Developer />",
+    "< Processamento de Dados />",
+    "< Machine Learning />",
     "< Geoprocessamento />",
-    "< Geofísico />"
+    "< Geofísica Aplicada />"
 ];
 
 let currentPhraseIndex = 0;
